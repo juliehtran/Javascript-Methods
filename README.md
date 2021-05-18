@@ -43,7 +43,6 @@ console.log(`Total ${totalAge}, Average ${ageAverage}`); // Total 72, Average 24
 
 
 ## Filter - 0(n)
-
 Creates a new array with all elements that pass the test implemented by the provided function.
 
 Const gardnerGang = [ “Dashlin”, “Asianna”, “Tanecia”, “Wade”, “Brian”, “Julie”]
@@ -168,6 +167,7 @@ const maxRcAge= (gardnerAge) => gardnerAge < 32;
 const array1 = [20, 20, 25, 26, 30, 30];
 console.log( array1.every( maxRcAge ));
 // expected output: true
+
 
 # String Methods 
 
@@ -297,7 +297,6 @@ console.log(sentence.toLowerCase());
 
 
 ## toUpperCase
-
 Turns all the letters of the string into uppercase
 
   const sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -308,7 +307,6 @@ Turns all the letters of the string into uppercase
 
 
 ## Trim
-
  Method removes whitespace from both ends of a string.
   const greeting = '   Hello world!   ';
 
